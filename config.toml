@@ -57,13 +57,13 @@ disableHugoGeneratorInject = false
 
   # Metadata mostly used in document's head
   description = "Nice theme for homepages and blogs"
-  keywords = ""
+  keywords = "software engineering, programming,"
   images = [""]
 
   homeSubtitle = "I am Software Engineer , i smoke code"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  # gitUrl = ""
+  #gitUrl = "https://github.com/nhwaani/"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -80,7 +80,7 @@ disableHugoGeneratorInject = false
   contentTypeName = "posts"
 
   # Default theme "light" or "dark"
-  defaultTheme = "dark"
+  defaultTheme = "light"
   themeColor = "#252627"
 
   # Colors for favicons
@@ -130,7 +130,7 @@ disableHugoGeneratorInject = false
   [[menu.main]]
     identifier = "about"
     name       = "About"
-    url        = "about/index.html"
+    url        = "about/"
   [[menu.main]]
     identifier = "posts"
     name       = "Posts"
