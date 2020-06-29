@@ -7,6 +7,7 @@ weight: 10
 type:
 - post
 - posts
+cover: write_code_that_is_easy.jpg
 tags:
   - book-reviews
   - personal development

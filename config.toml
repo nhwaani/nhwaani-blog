@@ -60,7 +60,7 @@ disableHugoGeneratorInject = false
   # Metadata mostly used in document's head
   description = "Nice theme for homepages and blogs"
   keywords = "software engineering, programming,"
-  images = ["img"]
+  images = ["write_code_that_is_easy.jpg"]
 
   homeSubtitle = "I am Software Engineer , i smoke code"
 
