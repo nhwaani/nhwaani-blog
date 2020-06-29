@@ -21,6 +21,7 @@ contentDir   = "content"
 dataDir      = "data"
 layoutDir    = "layouts"
 publishDir   = "nhwaani.github.io"
+imagesDir    = "images"
 
 buildDrafts  = false
 buildFuture  = false
@@ -28,7 +29,7 @@ buildExpored = false
 canonifyURLs = true
 
 enableRobotsTXT = true
-enableGitInfo   = false
+enableGitInfo   = true
 enableEmoji     = true
 enableMissingTranslationPlaceholders = false
 disableRSS     = false
@@ -48,6 +49,7 @@ disableHugoGeneratorInject = false
 [taxonomies]
   tag      = "tags"
   category = "categories"
+  author = "authors"
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -58,15 +60,15 @@ disableHugoGeneratorInject = false
   # Metadata mostly used in document's head
   description = "Nice theme for homepages and blogs"
   keywords = "software engineering, programming,"
-  images = [""]
+  images = ["img"]
 
   homeSubtitle = "I am Software Engineer , i smoke code"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  #gitUrl = "https://github.com/nhwaani/"
+  gitUrl = "https://github.com/nhwaani/nhwaani.github.io"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = false
+  disableReadOtherPosts = true
 
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
@@ -114,11 +116,11 @@ disableHugoGeneratorInject = false
 
   [[params.social]]
     name = "linkedin"
-    url  = "https://www.linkedin.com/nhwaani"
+    url  = "https://www.linkedin.com/in/nhwaani"
 
   [[params.social]]
     name = "stackoverflow"
-    url  = "https://www.stackoverflow.com/nhwaani"
+    url  = "https://stackoverflow.com/story/nhwaani"
 
 [languages]
   [languages.en]
