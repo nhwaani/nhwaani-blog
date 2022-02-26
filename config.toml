@@ -5,8 +5,8 @@ DefaultContentLanguage = "en"
 relativeURLs = false
 theme = "hello-friend-ng"
 canonifyurls = true
-summaryLength = 200
-Paginate = 5
+summaryLength = 80
+Paginate = 1
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
@@ -38,7 +38,7 @@ disable404     = false
 disableHugoGeneratorInject = false
 
 [permalinks]
-  posts = "/posts/:year/:month/:title/"
+  archives = "/archives/:year/:month/:title/"
 
 [author]
   name = "Nadeem Hilal"
@@ -50,6 +50,7 @@ disableHugoGeneratorInject = false
   tag      = "tags"
   category = "categories"
   author = "authors"
+  books = "books"
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -68,7 +69,7 @@ disableHugoGeneratorInject = false
   gitUrl = "https://github.com/nhwaani/nhwaani.github.io"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = true
+  disableReadOtherPosts = false
 
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
@@ -76,14 +77,18 @@ disableHugoGeneratorInject = false
   customJS  = []
 
   # Toggle this option need to rebuild SCSS, requires extended version of Hugo
-  justifyContent = false  # Set "text-align: justify" to .content.
+  justifyContent = true  # Set "text-align: justify" to .content.
 
   # Directory name of your blog content (default is `content/posts`)
-  contentTypeName = "posts"
+  contentTypeName = "archives"
 
   # Default theme "light" or "dark"
   defaultTheme = "light"
   themeColor = "#252627"
+
+  newerPosts = "Newer posts"
+  olderPosts = "Older posts"
+  showReadingTime = true
 
   # Colors for favicons
   [params.favicon.color]
@@ -124,9 +129,14 @@ disableHugoGeneratorInject = false
 
 [languages]
   [languages.en]
-    subtitle  = "Nadeem Hilal"
+    title = "Nadeem Hilal"
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    keywords = "Love"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
 
 [menu]
   [[menu.main]]
@@ -134,6 +144,10 @@ disableHugoGeneratorInject = false
     name       = "About"
     url        = "about/"
   [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "posts/"
+    identifier = "archives"
+    name       = "Archives"
+    url        = "archives/"
+  [[menu.main]]
+    identifier = "reading-list"
+    name       = "Reading-list"
+    url        = "archives/2022/02/reading-list/"

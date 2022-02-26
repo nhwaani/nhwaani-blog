@@ -1,14 +1,13 @@
 ---
-author:
- name: "Paul Graham"
+author: "Paul Graham"
 title: Write Code That Is Easy to Delete
 linktitle: Write Code That Is Easy to Delete
 date: 2020-04-04T00:14:21+04:00
 draft: false
 weight: 10
+hasPrev: false
 type:
-- post
-- posts
+ - archives
 tags:
   - personal development
   - hardwork

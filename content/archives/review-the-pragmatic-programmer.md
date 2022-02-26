@@ -5,16 +5,14 @@ date: 2020-06-30T00:48:21+04:00
 draft: false
 weight: 10
 type:
-- post
-- posts
+ - archives
 cover: write_code_that_is_easy.jpg
+hideReadMore: true
 tags:
   - book-reviews
-  - personal development
-  - hardwork
-  - programming
   - software engineering
-  - me
+books:
+  - Review the Pragmatic Programmer
 ---
 Today i decided to add my review about one of the best books among the software engineers, its a must to have in your bookshelf.
 The book was written by __Dave Thomas and Andy Hunt__ , and the motto of the book was 

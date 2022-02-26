@@ -1,16 +1,16 @@
 ---
-author:
- name: "Nadeem Hilal"
+author: "Aaron Swartz"
 title: "Critical Ingredient to Become a Genius"
 date: 2020-04-03T16:15:18+04:00
 draft: false
 weight: 10
 type:
-- post
-- posts
+ - archives
 tags:
   - personal development
   - hardwork
+authors:
+    - Aaron Swartz
 ---
 Everyone knows that to do great work you need both natural ability and determination. But there’s a third ingredient that’s not as well understood: 
 **_an obsessive interest in a particular topic_**
